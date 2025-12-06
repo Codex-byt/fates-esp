@@ -44,7 +44,7 @@ local DefaultSettings = {
         DistanceEnabled = true,
         HealthEnabled = true,
         TracersEnabled = false,
-        BoxEsp = false,
+        BoxEsp = true,
         TeamColors = true,
         Thickness = 1.5,
         TracerThickness = 1.6,
@@ -58,7 +58,7 @@ local DefaultSettings = {
         BlacklistedTeams = {}
     },
     Aimbot = {
-        Enabled = false,
+        Enabled = true,
         SilentAim = false,
         Wallbang = false,
         ShowFov = false,
