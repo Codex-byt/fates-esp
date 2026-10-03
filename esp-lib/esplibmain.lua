@@ -6,7 +6,7 @@ if (not game.IsLoaded(game)) then
     CWait(game.Loaded);
 end
 
-local Drawing = Drawing or loadstring(game.HttpGet(game, "https://raw.githubusercontent.com/fatesc/Roblox-Drawing-Lib/main/main.lua"))();
+local Drawing = Drawing or loadstring(game.HttpGet(game, "https://github.com/Codex-byt/fates-esp/blob/main/main.lua"))();
 
 local GetService = game.GetService
 local RunService = GetService(game, "RunService");
