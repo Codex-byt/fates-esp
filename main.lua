@@ -14,7 +14,7 @@ end
     The script will likely error below unless you replace the URL with a working version of Fates UI 
     or a compatible library. 
 ]]
-local LibraryURL = "https://raw.githubusercontent.com/fatesc/fates-esp/main/ui.lua" -- <--- THIS LINK IS LIKELY DEAD
+local LibraryURL = "https://github.com/Codex-byt/fates-esp/blob/main/ui.lua" -- <--- THIS LINK IS LIKELY DEAD
 local success, UILibrary = pcall(function()
     return loadstring(game:HttpGet(LibraryURL))()
 end)
